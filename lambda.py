@@ -21,6 +21,6 @@ def lambda_handler(event, context):
     transactionResponse['transactionAmount'] = transactionAmount
     transactionResponse['message'] = 'Hello from Lambda land'
 
-    
+    #3. 
 
 
