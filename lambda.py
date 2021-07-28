@@ -30,7 +30,9 @@ def lambda_handler(event, context):
     responseObject['body'] = json.dumps(transactionResponse)
 
 
-    #4. Return 
+    #4. Return the response object 
+
+    return re
 
 
 
