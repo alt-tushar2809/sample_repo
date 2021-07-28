@@ -9,5 +9,6 @@ def lambda_handler(event, context):
     transactionAmount = event['queryStringParameters']['Amount']
 
     print('transactionId=' + transactionId)
+    print('transactionTy=' + transactionId)
     print('transactionId=' + transactionId)
 
