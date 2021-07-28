@@ -16,6 +16,6 @@ def lambda_handler(event, context):
     #2. Construct the body of the response object 
 
     transactionResponse = {}
-    tr
+    transactionResponse['t']
 
 
