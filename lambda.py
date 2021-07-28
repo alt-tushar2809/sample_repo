@@ -6,6 +6,6 @@ def lambda_handler(event, context):
     #1. Parse out query string params
     transactionId = event['queryStringParameters']['transactionId']
     transactionType = event['queryStringParameters']['type']
-    transactionId = event['queryStringParameters']['transactionId']
+    transactionAmount = event['queryStringParameters']['transactionId']
 
 
