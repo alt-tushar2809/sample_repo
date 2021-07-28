@@ -26,7 +26,7 @@ def lambda_handler(event, context):
     responseObject = {}
     responseObject['statuscode'] = 200
     responseObject['headers'] = {}
-    responseObject['headers']['Content Type']
+    responseObject['headers']['Content Type'] = 'app'
 
 
 
