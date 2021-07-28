@@ -11,5 +11,7 @@ def lambda_handler(event, context):
     print('transactionId=' + transactionId)
     print('transactionType=' + transactionType)
     print('transactionAmount=' + transactionAmount)
-    
+
+
+    #2. Construct 
 
