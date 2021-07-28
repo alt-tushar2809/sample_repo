@@ -23,6 +23,6 @@ def lambda_handler(event, context):
 
     #3. Construct http response object
 
-    respnseObject
+    respnseObject = {}
 
 
