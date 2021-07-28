@@ -18,6 +18,7 @@ def lambda_handler(event, context):
     transactionResponse = {}
     transactionResponse['transactionId'] = transactionId
     transactionResponse['transactionType'] = transactionType
-    transactionResponse['transactionAmount'] = transactionId
+    transactionResponse['transactionAmount'] = transactionAmount
+    transactionResponse['transactionId'] = transactionId
 
 
