@@ -25,7 +25,7 @@ def lambda_handler(event, context):
 
     responseObject = {}
     responseObject['statuscode'] = 200
-    responseObject['statuscode'] = 200
+    responseObject['headers'] = 200
 
 
 
