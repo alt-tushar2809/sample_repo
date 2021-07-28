@@ -8,6 +8,6 @@ def lambda_handler(event, context):
     transactionType = event['queryStringParameters']['type']
     transactionAmount = event['queryStringParameters']['Amount']
 
-    print
+    print('')
 
 
