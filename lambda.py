@@ -13,5 +13,5 @@ def lambda_handler(event, context):
     print('transactionAmount=' + transactionAmount)
 
 
-    #2. Construct 
+    #2. Construct the body 
 
