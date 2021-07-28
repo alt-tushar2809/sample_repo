@@ -27,7 +27,7 @@ def lambda_handler(event, context):
     responseObject['statuscode'] = 200
     responseObject['headers'] = {}
     responseObject['headers']['Content Type'] = 'application/json'
-    responseObject['body'] = 
+    responseObject['body'] = json.dumps(tran)
 
 
 
